@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bird Owners</title>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  <script src="js/main.js"></script>
+</head>
+<body class="bg-[#F3F4F6] text-gray-800">
+        
+    <header class="bg-[#003B6D] text-white p-4 shadow-md">
+        <div class="container mx-auto flex justify-between items-center">
+    
+          <a href="home.html" class="flex items-center">
+            <img src="img/logo.png" alt="Logo" class="h-12 bg-white rounded ">
+          </a>
+          
+          <nav class="hidden md:flex space-x-8">
+            <a href="home.html" class="hover:text-[#6699CC]">Home</a>
+            <a href="dog-owners.html" class="hover:text-[#6699CC]">Dog Owners</a>
+            <a href="cat-owners.html" class="hover:text-[#6699CC]">Cat Owners</a>
+            <a href="bird-owners.html" class="text-[#6699CC]">Bird Owners</a>
+            <a href="contact.html" class="hover:text-[#6699CC]">Contact</a>
+          </nav>
+      
+    
+          <button class="md:hidden text-white focus:outline-none" id="menu-toggle">
+            <ion-icon name="menu-outline" size="large"></ion-icon>
+          </button>
+        </div>
+      
+    
+        <nav class="md:hidden bg-[#003B6D] text-white space-y-4 px-4 py-6 hidden" id="mobile-menu">
+          <a href="home.html" class="block hover:text-[#6699CC]">Home</a>
+          <a href="dog-owners.html" class="block hover:text-[#6699CC]">Dog Owners</a>
+          <a href="cat-owners.html" class="block hover:text-[#6699CC]">Cat Owners</a>
+          <a href="bird-owners.html" class="block hover:text-[#6699CC]">Bird Owners</a>
+          <a href="contact.html" class="block hover:text-[#6699CC]">Contact</a>
+        </nav>
+      </header>
+  
+
+    <section class="bg-gradient-to-br from-[#6B7280] to-[#1F2937] text-white py-16 text-center" data-aos="fade-up">
+    <h1 class="text-5xl font-extrabold">Caring for Your Bird</h1>
+    <p class="text-lg mt-4 max-w-3xl mx-auto">Discover the fascinating world of birds, from their behaviors to their well-being.</p>
+  </section>
+
+
+  <section class="py-16 bg-white" data-aos="fade-up">
+    <div class="container mx-auto">
+      <div class="flex flex-col md:flex-row items-start space-y-8 md:space-y-0 md:space-x-8">
+        <div class="md:w-1/2 space-y-6">
+          <h2 class="text-3xl font-semibold text-[#374151]">Birds Overview</h2>
+          <p>Birds range from the tiny Cuban bee hummingbird to the large ostrich. While many birds fly, some are flightless. Birds are unique in their relational needs and well-being.</p>
+        </div>
+        <div class="md:w-1/2">
+          <img src="img/birds.png" style="width: 500px; height: 300px ;" alt="Birds Overview" class="rounded-lg shadow-lg" />
+        </div>
+      </div>
+
+      <div class="flex flex-col-reverse md:flex-row items-start mt-16 space-y-8 md:space-y-0 md:space-x-8">
+        <div class="md:w-1/2">
+          <img src="img/birdd.png" style="width: 500px; height: 300px ;"  alt="Depressed Bird" class="rounded-lg shadow-lg" />
+        </div>
+        <div class="md:w-1/2 space-y-6">
+          <h2 class="text-3xl font-semibold text-[#374151]">Signs of Depression in Birds</h2>
+          <p>Birds, like humans, can experience sadness or depression. Root causes may include physical illness, loss of a companion, or boredom.</p>
+          <ul class="list-disc ml-6 text-gray-600">
+            <li>Reduced appetite</li>
+            <li>Increased irritability</li>
+            <li>Aggressive behavior</li>
+            <li>Songs have a more solemn tone</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="flex flex-col md:flex-row items-start mt-16 space-y-8 md:space-y-0 md:space-x-8">
+        <div class="md:w-1/2 space-y-6">
+          <h2 class="text-3xl font-semibold text-[#374151]">Care and Prevention</h2>
+          <p>If you notice these signs, consult a veterinarian. Early diagnosis can significantly increase the lifespan and well-being of your bird.</p>
+        </div>
+        <div class="md:w-1/2">
+          <img src="img/birdsh.png"  style="width: 500px; height: 300px ;" alt="Healthy Bird" class="rounded-lg shadow-lg" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="bg-gradient-to-br from-[#6B7280] to-[#1F2937] text-white py-16 text-center" data-aos="zoom-in">
+    <h2 class="text-4xl font-bold mb-6">Need Help With Your Bird?</h2>
+    <p class="max-w-2xl mx-auto mb-8">We provide expert advice on bird care, diet, and mental health. Reach out to us today!</p>
+    <a href="contact.html"
+      class="inline-block px-8 py-3 bg-white text-[#374151] font-semibold rounded-full hover:bg-gray-200 transition duration-300 animate-pulse">
+      Contact Us Today
+    </a>
+  </section>
+
+  <script>
+    AOS.init();
+  </script>
+  <script src="js/main.js"></script>
+</body>
+</html>
